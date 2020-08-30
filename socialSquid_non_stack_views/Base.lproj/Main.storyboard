@@ -27,15 +27,31 @@
                                 <rect key="frame" x="170" y="513" width="74" height="30"/>
                                 <state key="normal" title="3rd Button"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login or Create an account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nva-7E-eua">
+                                <rect key="frame" x="104" y="392" width="206.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Social Squid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Be-eL-TvB">
+                                <rect key="frame" x="160" y="341" width="94.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="RKe-m8-Z5u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HhY-aK-olJ"/>
+                            <constraint firstItem="4Be-eL-TvB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MjU-qK-MvE"/>
+                            <constraint firstItem="Nva-7E-eua" firstAttribute="top" secondItem="4Be-eL-TvB" secondAttribute="bottom" constant="30" id="Q8a-dW-HmB"/>
                             <constraint firstItem="Mc4-No-AdF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QNQ-9v-GVF"/>
                             <constraint firstItem="Mc4-No-AdF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="SM7-Jl-y5l"/>
                             <constraint firstItem="RKe-m8-Z5u" firstAttribute="top" secondItem="Mc4-No-AdF" secondAttribute="bottom" constant="10" id="UaQ-Lp-ueA"/>
                             <constraint firstItem="ERS-sn-rX3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e68-R0-wnJ"/>
+                            <constraint firstItem="Mc4-No-AdF" firstAttribute="top" secondItem="Nva-7E-eua" secondAttribute="bottom" constant="20" id="jTn-m5-kZt"/>
                             <constraint firstItem="ERS-sn-rX3" firstAttribute="top" secondItem="RKe-m8-Z5u" secondAttribute="bottom" constant="10" id="oZp-Tk-vIp"/>
+                            <constraint firstItem="Nva-7E-eua" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pZp-tg-11p"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
